@@ -2,7 +2,7 @@
 // Strateji: Network-First (önce ağdan çek, hata olursa cache kullan)
 // Her deploy'da CACHE_VERSION'ı artır → eski cache otomatik silinir
 
-const CACHE_VERSION = 'astera-v1';
+const CACHE_VERSION = 'astera-v2';
 const CACHE_NAME = CACHE_VERSION;
 
 // Önbelleğe alınacak dosyalar (sadece font gibi 3rd party kaynaklar)
